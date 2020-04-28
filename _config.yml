@@ -8,7 +8,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-github"></i>
   </a>
   <iframe
-    src="https://music.163.com/outchain/player?type=0&id=31654455&auto=0&height=32"
+    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
     width=100%
     height=52
     frameborder="no"
@@ -343,7 +343,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "28/04/2020 12:08:00") // 这是我第一篇CSDN博客的时间
+              }, 1000, "28/08/2017 08:52:03") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
