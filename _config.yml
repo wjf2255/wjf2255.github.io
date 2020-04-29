@@ -8,7 +8,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-github"></i>
   </a>
   <iframe
-    src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
+    src="https://music.163.com/outchain/player?type=0&id=27583305&auto=0&height=32"
     width=100%
     height=52
     frameborder="no"
@@ -22,7 +22,7 @@ baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   default:
     body:
-      theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
+      theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
       layout-reverse: false # 开启后sidebar在右边，反之左边
       sidebar-overlay: false # 开启后正文不随sidebar移动而移动
     append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
@@ -343,7 +343,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "28/08/2017 08:52:03") // 这是我第一篇CSDN博客的时间
+              }, 1000, "08/28/2017 08:52:03") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -542,7 +542,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   archive:
     posts_count:
       enable: true # 博文数量统计
-      alert: 篇博文。长路漫漫！ # 提示语
+      alert: 路漫漫其修远兮，吾将上下而求索～ # 提示语
     pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
       enable: true
     year_count: true
