@@ -1,6 +1,6 @@
 ---
 title: Java集合简单介绍2
-tags: Java, Collection
+tags: [Java, Collection]
 layout: post
 author: wjf
 ---
