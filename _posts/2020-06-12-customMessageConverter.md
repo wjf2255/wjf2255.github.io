@@ -1,3 +1,9 @@
+---
+title: 自定义Spring MVC消息转换器
+tags: [Spring MVC, Java]
+layout: post
+author: wjf
+---
 
 # 目录
 
