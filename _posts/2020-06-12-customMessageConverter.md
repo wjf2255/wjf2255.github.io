@@ -3,7 +3,7 @@
 
 1.  [问题](#org8f29860)
 2.  [Spring MVC 如何处理返回值](#orgfd4502d)
-    1.  [自定义消息转换器](#org740a90e)
+3.  [自定义消息转换器](#org740a90e)
 
 <a id="org8f29860"></a>
 
@@ -210,9 +210,9 @@ Spring MVC项目在初始化阶段就会初始化MappingJackson2HttpMessageConve
 
 <a id="org740a90e"></a>
 
-## 自定义消息转换器
+# 自定义消息转换器
 
-由于服务接口众多，并且需要同时支持驼峰和下划线，所以决定自定义一个媒体类型比如：application/underscore，如果调用房指定是Accept:application/underscore，那么有自定义模版消息将结果转成下划线格式的json。
+由于服务接口众多，并且需要同时支持驼峰和下划线，所以决定自定义一个媒体类型比如：application/underscore，如果调用方指定是Accept:application/underscore，那么由自定义模版消息将结果转成下划线格式的json。
 
 自定义媒体消息：
 
